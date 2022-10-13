@@ -1,0 +1,28 @@
+body {
+    background-color: powderblue;
+}
+
+.rounded-img {
+    background: white;
+    width: 50%;
+    border-radius: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 0.2em;
+    margin-bottom: 1em;
+}
+
+.card {
+    border-radius: 3em;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card:hover {
+    background: rgba(54, 73, 90, 0.1);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;
+}

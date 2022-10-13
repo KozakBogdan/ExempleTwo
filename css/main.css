@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.greeting {
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  background-color: rgba(53, 213, 234, 0.703);
+  font-family: "Times New Roman", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+@use "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin spetial-text($size) {
+    color: red;
+    font-size: $size;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+.greeting {
+    text-align: center;
+    
+    padding: 50px;
+    font-size: 25px;
+
+    background-color: $myColor;
+
+    font: {
+        family: $myFont, sans-serif;
+        size: 30px;
+        weight: bold;
+    }
+}
+
+.text {
+    @include spetial-text($sizeOfFont);
+}
